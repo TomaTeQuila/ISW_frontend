@@ -1,0 +1,42 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.card {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+    border: none;
+    border-radius: 15px;
+}
+
+.card-header {
+    background: rgb(0,43,48);
+    background: linear-gradient(90deg, rgba(0,43,48,1) 0%, rgba(0,189,255,1) 100%);
+    color: #fff;
+    border-bottom: none;
+    border-radius: 8px 8px 0 0;
+}
+
+.btn-primary {
+    background: rgb(78,134,140);
+    background: linear-gradient(90deg, rgba(78,134,140,1) 0%, rgba(4,146,196,1) 100%);
+    border: none;
+    box-shadow: -2px 2px 1px rgba(0, 0, 0, 0.5);
+    border-radius: 6px;
+}
+
+.form-control {
+    border-radius: 5px;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #007bff;
+}
